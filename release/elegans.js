@@ -3004,7 +3004,7 @@ define('components/space',[
 	            .style("height", "500")
 	            .style("display", "none");
 	    var ticks = svg.append("g")
-	            .call(d3.svg.axis()
+	            .call(d3.axis()
 		              .scale(scale)
 		              .orient("left")
 		              .ticks(5))
